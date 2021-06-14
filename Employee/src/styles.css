@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.form-group>input{
+    font-weight:bolder;
+}
+.form-group>label{
+    font-weight:lighter;
+}
+button[type="submit"]{
+    background-color:#a1aca9;
+    color:#fff;
+}
+.jumbotron{
+    background-color:#fff;
+    padding: top 32px;
+}
+
+table tr:hover{
+    cursor:pointer;
+    background-color:#fff;
+}
+
+input.ng-dirty.ng-invalid{
+    border-color:#dc3545;
+}
+
+.bgColor {
+    width:100%;
+    background-color:#a1aca9;
+    font-weight:bolder;
+    cursor:pointer;
+}
+.fontPosition{
+    width:100%;
+    font-weight:lighter;
+    font-size: small;
+}
+.tr{
+    border-bottom: 1px solid rgb(124, 121, 121);
+}
